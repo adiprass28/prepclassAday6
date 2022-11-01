@@ -1,0 +1,11 @@
+function kabisat(n) {
+  if (n % 4 != 0) {
+    return 'Bukan kabisat'
+  } else if (n % 100 != 0 && n % 4 == 0) {
+    return '2012'
+  } else {
+    return 'Bukan kabisat'
+  }
+}
+
+console.log(kabisat(2001))
